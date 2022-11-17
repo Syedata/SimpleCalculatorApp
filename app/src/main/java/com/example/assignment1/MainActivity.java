@@ -6,13 +6,14 @@ import androidx.core.content.ContextCompat;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 //Calculator App
-//following requirements
+//following requirements are considered
 //Allow only single digit operands
 //All operators are calculated in the order of entering from left to right (no priority)
 //All operators and operands need to be entered in sequence
@@ -76,8 +77,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         result_text = findViewById(R.id.result); //display the final result of the calculation
         history_text = findViewById(R.id.historytext); //display the history of all the calculations
         advance_but = findViewById(R.id.advancebut);
+        history_text.setMovementMethod(new ScrollingMovementMethod()); //making the history text scrollable
 
-        //setOnClickListener needs View.OnclickListener to perform the logic
+        //setOnClickListener is an event listener that is invoked when a button is pressed
+        // it needs View.OnclickListener to perform the logic
         // in its onclick method if the user click the button
         //since the MainActivity is implementing the View.OnclickListener interface
         //so we pass this in the method argument

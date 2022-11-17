@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+         android:background="@color/white"
+        android:layout_gravity="left"
+        android:text=""
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp" >
+
+
+        <Button
+            android:id="@+id/onebut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/one"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/twobut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/two"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/threebut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/three"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/addbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/add"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <Button
+            android:id="@+id/fourbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/four"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/fivebut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/five"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/sixbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/six"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/subtractbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/subtract"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <Button
+            android:id="@+id/sevenbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/seven"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/eightbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/eight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ninebut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/nine"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/multiplybut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/multiply"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <Button
+            android:id="@+id/clearbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/clear"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/zerobut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/zero"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/equalbut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/equals"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dividebut"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/Coral"
+            android:text="@string/divide"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/advancebut"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/MediumSlateBlue"
+        android:text="@string/advance"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/historytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:layout_gravity="left"
+        android:text=""
+        android:textSize="25sp" />
+
+</LinearLayout>

@@ -10,3 +10,4 @@ Advance Mode will show all the history of all the calculations performed by the 
 Standard Mode will just show the current calculation
 User has to press C to clear the display
 App has one activity only and it is designed using Linear Layout
+<img src="github.png">

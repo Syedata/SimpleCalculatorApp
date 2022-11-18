@@ -6,7 +6,7 @@ Following requirements are considered:
 - Valid result is returned if the user follow the sequence to perform the calculation
 - Invalid operation is returned if the user don't follow the sequence
 - The app has two modes Standard and Advanced
-- Advance Mode will show all the history of all the calculations performed by the user
+- Advance Mode will show the history of all the calculations performed by the user and the history text would be scrollable
 - Standard Mode will just show the current calculation
 - User has to press C to clear the display
 - App has one activity only and it is designed using Linear Layout
